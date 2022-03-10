@@ -1,5 +1,5 @@
 from . import Expense
-from budget import BudgetList
+#from budget import BudgetList
 
 
 class BudgetList:
