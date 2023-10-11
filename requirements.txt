@@ -12,7 +12,7 @@ numpy==1.22.2
 packaging==20.3
 pluggy==0.13.1
 py==1.10.0
-pylint==2.5.0
+pylint==2.7.0
 pyparsing==2.4.7
 pytest==5.4.1
 pytest-json-report==1.2.1
@@ -27,3 +27,4 @@ wcwidth==0.1.9
 wheel==0.38.0
 wrapt==1.12.1
 zipp==3.1.0
+pillow>=10.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
